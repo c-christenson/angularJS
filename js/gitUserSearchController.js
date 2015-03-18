@@ -1,5 +1,8 @@
 githubUserSearch.controller('GitUserSearchController', function($scope) {
 
+  $scope.doSearch = function() {
+    console.log("Hello World");
+  };
 
   $scope.searchResult = {
   "items": [
